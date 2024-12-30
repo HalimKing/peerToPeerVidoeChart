@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Routes, useNavigate } from 'react-router-dom';
 import AgoraRTC, { AgoraRTCProvider, useRTCClient } from "agora-rtc-react";
 import { Suspense, useState } from 'react';
-import ConnectForm from './Components/ConnectForm';
-import LiveVideo from './Components/LiveVideo';
+import ConnectForm from '@/components/ConnectForm';
+import LiveVideo from '@/components/LiveVideo';
 import './App.css';
-import VideoCallApp from './Components/VideoCallApp';
+import VideoCallApp from '@/components/VideoCallApp';
 
 const LoadingSpinner = () => (
   <div className="flex items-center justify-center h-screen">
